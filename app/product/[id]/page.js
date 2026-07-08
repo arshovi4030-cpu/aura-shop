@@ -72,7 +72,7 @@ export default function ProductPage(){
   return (
     
 
-    <main dir="rtl">
+    <main dir="rtl" className="product-page">
 
       
 
