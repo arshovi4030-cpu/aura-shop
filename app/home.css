@@ -81,7 +81,7 @@ body {
 
   text-decoration:none;
 
-  color:#222;
+  color:#e8dcc8;
 
   font-size:27px;
 
@@ -152,7 +152,7 @@ body {
 
   outline:none;
 
-  background:#f4f0ea;
+  background:rgba(255,255,255,0.15);
 
   border-radius:30px;
 
@@ -160,7 +160,17 @@ body {
 
   font-size:15px;
 
+  color:#e8dcc8;
+
   transition:.3s;
+
+}
+
+.search::placeholder {
+
+  color:#c8b896;
+
+  opacity:0.8;
 
 }
 
@@ -211,7 +221,10 @@ body {
  border-radius:50%;
 
 
- background:#f4f0ea;
+ background:rgba(255,255,255,0.12);
+
+
+ color:#e8dcc8;
 
 
  cursor:pointer;
@@ -230,11 +243,11 @@ body {
 .cart-icon:hover,
 .user-icon:hover {
 
- background:#111;
+  background:#b8860b;
 
- color:white;
+  color:#ffffff;
 
- transform:translateY(-3px);
+  transform:translateY(-3px);
 
 }
 
