@@ -6,6 +6,8 @@ import Link from "next/link";
 import perfumes from "./data/perfumes";
 import HeroBanner from "./components/HeroBanner";
 import LuxuryCarousel from "./components/LuxuryCarousel";
+import "./components/nav.css";
+import Navbar from "./components/Navbar";
 
 
 export default function Home(){
@@ -53,7 +55,7 @@ export default function Home(){
 
 
 
-      <header className="header">
+      {/* <header className="header">
 
 
         <div className="logo">
@@ -149,10 +151,10 @@ export default function Home(){
 
 
 
-      </header>
+      </header> */}
 
 
-
+      <Navbar />
      
       <HeroBanner />
 
