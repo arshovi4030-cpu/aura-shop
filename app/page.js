@@ -5,9 +5,8 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import perfumes from "./data/perfumes";
 import HeroBanner from "./components/HeroBanner";
+import Nav from "./components/Nav";
 import LuxuryCarousel from "./components/LuxuryCarousel";
-import "./components/nav.css";
-import Navbar from "./components/Navbar";
 
 
 export default function Home(){
@@ -153,9 +152,7 @@ export default function Home(){
 
       </header> */}
 
-
-      <Navbar />
-     
+      <Nav search={search} setSearch={setSearch} count={count} />
       <HeroBanner />
 
 
