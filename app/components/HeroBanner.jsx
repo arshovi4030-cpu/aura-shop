@@ -12,8 +12,43 @@ export default function HeroBanner() {
         loop
         playsInline
       >
-        <source src="/videos/perfume.mp4" type="video/mp4" />
+        <source src="/videos/header.mp4" type="video/mp4" />
       </video>
+
+      <video
+        className="video"
+        style={{ objectFit: "none", paddingRight: "70%" }}
+        autoPlay
+        muted
+        loop
+        playsInline
+      >
+        <source src="/videos/header.mp4" type="video/mp4" />
+      </video>
+
+      <video
+        className="video"
+        style={{ objectFit: "none", paddingLeft: "75%" }}
+        autoPlay
+        muted
+        loop
+        playsInline
+      >
+        <source src="/videos/header.mp4" type="video/mp4" />
+      </video>
+
+      <video
+        className="video"
+        style={{ objectFit: "none" }}
+        autoPlay
+        muted
+        loop
+        playsInline
+      >
+        <source src="/videos/header.mp4" type="video/mp4" />
+      </video>
+      
+
 
       {/* لایه تیره برای خوانایی */}
       <div className="overlay" />
